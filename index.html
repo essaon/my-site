@@ -111,8 +111,8 @@ var myHeading = document.querySelector('h1');
      var storedName = localStorage.getItem('nam');
      myHeading.innerHTML = 'Пудж приветствует вас, ' + storedName;
    }
-    if (storedName == null){
-     myHeading.innerHTML = 'Пудж преветствует вас, ' + 'а нет иди нахуй'
+    if (storedName == false){
+     myHeading.innerHTML = 'Пудж преветствует вас, ' + 'а нет иди нахуй';
     }     
      myButton.onclick = function() {
        setUserName();
