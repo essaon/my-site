@@ -1,0 +1,55 @@
+html {
+  font-size: 20px;
+font-family: 'Rajdhani', sans-serif;
+}
+
+body{
+  background-color: #AD9E9E
+}
+body {
+  width: 500px;
+  margin: 1% auto;
+  padding: 0 20px 20px 20px;
+  border: 3px solid #941F1F;
+}
+html {
+  background-color: #948F8F
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+
+}
+a {
+  color: #3E442B;
+}
+h2, h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+p {
+  border: 1px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #F2C97C;
+  text-shadow: 2px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  color: #3E442B;
+}
