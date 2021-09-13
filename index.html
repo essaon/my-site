@@ -110,14 +110,15 @@ var myHeading = document.querySelector('h1');
    } else {
      var storedName = localStorage.getItem('nam');
      myHeading.innerHTML = 'Пудж приветствует вас, ' + storedName;
+     console.log(storedName);
    }
-    if (storedName == false){
+    if (storedName == null){
      myHeading.innerHTML = 'Пудж преветствует вас, ' + 'а нет иди нахуй';
     }     
      myButton.onclick = function() {
        setUserName();
      }
-         console.log(storedName);
+         
 /* let myFunction = 0;
  let lolWTF = document.querySelector('h2');
     let a = 3;
