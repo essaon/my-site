@@ -109,12 +109,14 @@ var myHeading = document.querySelector('h1');
       setUserName();
    } else {
      var storedName = localStorage.getItem('nam');
+         if (storedName == null){
+     myHeading.innerHTML = 'Пудж преветствует вас, а нет иди нахуй';
+    } else{
      myHeading.innerHTML = 'Пудж приветствует вас, ' + storedName;
      console.log(storedName);
+    }
    }
-    if (storedName == null){
-     myHeading.innerHTML = 'Пудж преветствует вас, ' + 'а нет иди нахуй';
-    }     
+    
      myButton.onclick = function() {
        setUserName();
      }
